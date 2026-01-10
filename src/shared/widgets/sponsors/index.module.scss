@@ -1,0 +1,21 @@
+.sponsors {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  h2 {
+    font-weight: bold;
+    font-size: $font-large;
+    color: $text-primary;
+  }
+}
+
+.sponsors__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  height: 150px;
+}

@@ -1,0 +1,15 @@
+.cardImageContainer {
+  border: 1px solid $border-color;
+  display: flex;
+  height: 150px;
+  align-items: center;
+
+  img {
+    width: 100px;
+  }
+
+  a {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

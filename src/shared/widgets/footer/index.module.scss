@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: $bg-primary-dark;
+  color: $text-primary-light;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 25px;
+  justify-content: space-between;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+}
+
+.footer__create {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__svg {
+  scale: 0.8;
+}

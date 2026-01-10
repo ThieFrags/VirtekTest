@@ -5,15 +5,16 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  resolve: {
+    alias: {
+      "@app": path.resolve(__dirname, "src/app"),
+    },
+  },
   css: {
     preprocessorOptions: {
       scss: {
-        includePaths: [
-          path.resolve(__dirname, 'src'),
-        ],
-        additionalData: `
-          @use "app/styles/variables" as *;
-        `,
+        includePaths: [path.resolve(__dirname, "src")],
+        additionalData: `@use "@app/styles/variables" as *;`
       },
     },
   },

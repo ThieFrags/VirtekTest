@@ -1,0 +1,27 @@
+.header__nav_item {
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 120px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $accent-secondary;
+  }
+
+  &--active {
+    background-color: $accent-secondary;
+    color: $text-primary_light;
+
+    .link {
+      color: inherit;
+    }
+  }
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
