@@ -5,14 +5,13 @@ const HeroSection = () => {
     <section className={styles.homePage}>
       <div className={styles.homePage__text}>
         <h1>
-          ЭЛЕКТРОТЕХНИЧЕСКИЕ
-          КЛЕММЫ
+          Электротехнические клеммы
         </h1>
-        <h1>
-          ЭЛЕКТРОМЕХАНИЧЕСКИЕ
-          И ПОЛУПРОВОДНИКОВЫЕ
-          РЕЛЕ
-        </h1>
+        <p>
+          Электромеханические
+          и полупроводниковые
+          реле
+        </p>
       </div>
     </section>
   );

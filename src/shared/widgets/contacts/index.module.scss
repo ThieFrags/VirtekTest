@@ -1,0 +1,13 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.contacts__layout {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: $text-primary;
+  padding-left: 50px;
+}

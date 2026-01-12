@@ -1,0 +1,35 @@
+.specsTable {
+  margin-top: 2rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: $bg-primary;
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+.row {
+  border: 1px solid $border-color;
+
+  &:hover {
+    background: rgba($border-color, 0.05);
+  }
+
+  th {
+    width: 15%;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: $font-small;
+    font-weight: 600;
+    color: $text-primary;
+    border-right: 1px solid $border-color;
+  }
+
+  td {
+    padding: 1rem 1.5rem;
+    font-size: $font-main-normal;
+    color: $text-primary;
+  }
+}
