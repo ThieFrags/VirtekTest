@@ -1,6 +1,5 @@
-import MainContainer from "@shared/components/main-container";
-import ServicesList from "src/shared/widgets/services-list";
-
+import {MainContainer} from "@shared/components/main-container";
+import {ServicesList} from "@widgets";
 
 const ServicesPage = () => {
   return (

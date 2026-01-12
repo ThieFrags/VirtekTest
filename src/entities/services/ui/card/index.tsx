@@ -17,4 +17,6 @@ const ServicesCard: FC<IServicesCard> = ({service: {name, src, id}, ...props} ) 
   );
 };
 
-export default ServicesCard;
+export {
+  ServicesCard
+};

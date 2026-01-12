@@ -27,4 +27,6 @@ const ProductCards: FC<IProductCard> = ({product: {category ,description, src, i
   );
 };
 
-export default ProductCards;
+export {
+  ProductCards
+};

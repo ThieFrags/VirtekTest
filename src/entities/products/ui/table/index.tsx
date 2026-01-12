@@ -27,4 +27,6 @@ const ProductSpecsTable = () => (
   </section>
 );
 
-export default ProductSpecsTable;
+export {
+  ProductSpecsTable
+};

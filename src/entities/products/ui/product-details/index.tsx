@@ -41,4 +41,6 @@ const ProductDetails = () => {
   );
 };
 
-export default ProductDetails;
+export {
+  ProductDetails
+};

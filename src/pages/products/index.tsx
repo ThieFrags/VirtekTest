@@ -1,6 +1,5 @@
-import MainContainer from "@shared/components/main-container";
-import ProductDescription from "src/shared/widgets/product-description";
-import ProductList from "@shared/widgets/product-list";
+import {MainContainer} from "@shared/components";
+import {ProductDescription, ProductList} from "@widgets";
 
 const ProductPage = () => {
   return (

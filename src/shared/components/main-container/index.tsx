@@ -12,4 +12,6 @@ const MainContainer: FC<IMainContainerProps> = ({className, tag: Tag = 'div', ..
   )
 }
 
-export default MainContainer;
+export {
+  MainContainer
+};

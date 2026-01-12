@@ -34,4 +34,6 @@ const ProductCardsMock: IProduct[] = [
   }
 ]
 
-export default ProductCardsMock;
+export {
+  ProductCardsMock
+};

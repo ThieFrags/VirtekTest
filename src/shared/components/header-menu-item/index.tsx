@@ -1,9 +1,9 @@
 import styles from "./index.module.scss";
-import {FC} from "react";
+import {ComponentPropsWithRef, FC} from "react";
 import clsx from "clsx";
 import {Link} from "react-router";
 
-interface Props {
+interface Props extends ComponentPropsWithRef<'li'>{
   children: string;
   active?: boolean;
   className?: string;
@@ -31,4 +31,6 @@ const HeaderMenuItem: FC<Props> = ({
   );
 };
 
-export default HeaderMenuItem;
+export {
+  HeaderMenuItem
+};

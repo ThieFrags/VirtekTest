@@ -1,8 +1,7 @@
 import {FC} from "react";
 import styles from "./index.module.scss"
-import Header from "src/shared/widgets/header";
 import {Outlet} from "react-router";
-import Footer from "@shared/widgets/footer";
+import {Footer, Header} from "@widgets";
 
 const MainLayout: FC = () => {
   return (
