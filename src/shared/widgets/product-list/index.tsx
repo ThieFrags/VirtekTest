@@ -1,6 +1,6 @@
-import ProductCards from "@entities/products/ui/card";
+import {ProductCards} from "@entities/products/ui/card";
 import styles from "./index.module.scss"
-import ProductCardsMock from "@entities/products/data";
+import {ProductCardsMock} from "@entities/products/data";
 
 
 const ProductList = () => {

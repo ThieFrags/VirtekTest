@@ -1,4 +1,4 @@
-import ServicesCard from "@entities/services/ui/card";
+import {ServicesCard} from "@entities/services/ui/card";
 import klema from "@shared/assets/img/din2.png"
 import {IService} from "@entities/services/interface";
 import styles from "./index.module.scss"

@@ -1,7 +1,7 @@
 import styles from "./index.module.scss"
 import {LogoIcon} from "@shared/assets/icons";
-import MainContainer from "@shared/components/main-container";
-import HeaderMenuItem from "@shared/components/header-menu-item";
+import {MainContainer} from "@shared/components/main-container";
+import {HeaderMenuItem} from "@shared/components/header-menu-item";
 import {ERouterPath} from "@shared";
 import {useLocation} from "react-router";
 
